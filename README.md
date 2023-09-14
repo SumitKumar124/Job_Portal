@@ -43,7 +43,7 @@ py -m venv env
 
 
 4. Clone the repository:
-git clone https://github.com/Shubhamprakash007/Job_portal.git
+git clone https://github.com/SumitKumar124/Job_Portal.git
 
 5. Install dependencies:
 pip install -r requirements.txt
