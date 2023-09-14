@@ -70,8 +70,8 @@ To contribute, simply fork the repository, make your changes, and submit a pull 
 
 If you have any questions or issues with the website, feel free to contact me.
 
-- Email: shubhampark007@gmail.com
-- WhatsApp: 9430556559
+- Email: 87o.sum@gmail.com
+- WhatsApp: 7870224958
 
 I will do my best to respond promptly and assist with any concerns you may have. Thank you for using my job portal website.
 
