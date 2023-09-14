@@ -1,0 +1,17 @@
+{% extends "basic.html" %}
+
+{% block content %}
+  <h1>Job Listings</h1>
+  {% for job in jobs %}
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">{{ job.job_title }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{ job.company_name }}</h6>
+        <p class="card-text">{{ job.location }}</p>
+        <p class="card-text">{{ job.salary }}</p>
+        <p class="card-text">{{ job.experience_required }}</p>
+        <a href="{{ url_for('apply', job_id=job.id) }}" class="btn btn-primary">Apply</a>
+      </div>
+    </div>
+  {% endfor %}
+{% endblock %}
